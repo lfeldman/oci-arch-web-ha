@@ -8,7 +8,7 @@
 resource "oci_core_instance" "compute_instance1" {
   availability_domain = var.availablity_domain_name
   compartment_id      = var.compartment_ocid
-  display_name        = "Web-Server-1"
+  display_name        = "WebServer-1"
   shape               = var.instance_shape
   fault_domain        = "FAULT-DOMAIN-1"
 
@@ -37,7 +37,7 @@ resource "oci_core_instance" "compute_instance1" {
 resource "oci_core_instance" "compute_instance2" {
   availability_domain = var.availablity_domain_name
   compartment_id      = var.compartment_ocid
-  display_name        = "Web-Server-2"
+  display_name        = "WebServer-2"
   shape               = var.instance_shape
   fault_domain        = "FAULT-DOMAIN-2"
 
